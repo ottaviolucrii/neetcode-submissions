@@ -1,0 +1,22 @@
+def first_n_characters(s: str, n: int) -> str:
+    if n <= len(s):
+        for i in range (n):
+            return s[:n]
+    else: return ""
+            
+def last_n_characters(s: str, n: int) -> str:
+    if n <= len(s):
+        for i in range (n):
+            return s[- n:]
+    else: return ""
+            
+
+
+# do not modify below this line
+print(first_n_characters("NeetCode", 3))
+print(first_n_characters("NeetCode", 4))
+print(first_n_characters("NeetCode", 8))
+
+print(last_n_characters("NeetCode", 3))
+print(last_n_characters("NeetCode", 4))
+print(last_n_characters("NeetCode", 8))
