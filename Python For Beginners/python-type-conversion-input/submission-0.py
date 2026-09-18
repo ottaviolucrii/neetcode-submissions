@@ -1,0 +1,17 @@
+def read_integer() -> int:
+    num = int(input())
+    return num
+
+def read_float() -> float:
+    ff = float(input())
+    return ff
+
+
+# do not modify below this line
+print(read_integer())
+print(read_integer())
+print(read_integer())
+
+print(read_float())
+print(read_float())
+print(read_float())
